@@ -1,0 +1,97 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #000;
+    color: #ffd700; /* gold */
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#header .logo img {
+    padding: 0;
+    max-height: 26px;
+    }
+    
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    }
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffd700; /* gold */
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #ffd700; /* gold */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffd700; /* gold */
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #ffd700; /* gold */
+    color: #000;
+}
+
+footer {
+    background: #000;
+    color: #ffd700; /* gold */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #ffd700; /* gold */
+    text-decoration: none;
+}
