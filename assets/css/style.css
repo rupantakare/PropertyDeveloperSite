@@ -32,7 +32,34 @@ h5,
 h6 {
   font-family: "Satisfy", sans-serif;
 }
+/*newly added*/
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
 
+#header .logo img {
+  padding: 0;
+  max-height: 26px;
+  }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  }
+
+.custom-marquee {
+      font-family: 'Your Stylish Font', sans-serif; /* Use your stylish font here */
+      font-size: 18px; /* Adjust the font size as needed */
+      color: #ffd700; /* gold */
+  }
+  
+.highlight {
+      font-weight: bold;
+      text-decoration: underline;
+      color: #E6E8FA; /* Adjust the highlight color as needed */
+  }
+  
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/

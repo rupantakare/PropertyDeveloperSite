@@ -32,12 +32,24 @@ header h1 {
     padding: 0;
     max-height: 26px;
     }
-    
+
 .img-fluid {
     max-width: 100%;
     height: auto;
     }
 
+.custom-marquee {
+        font-family: 'Your Stylish Font', sans-serif; /* Use your stylish font here */
+        font-size: 18px; /* Adjust the font size as needed */
+        color: #ffd700; /* gold */
+    }
+    
+.highlight {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #ff4500; /* Adjust the highlight color as needed */
+    }
+    
 nav ul {
     list-style: none;
 }

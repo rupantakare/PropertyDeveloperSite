@@ -40,6 +40,48 @@
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
+  /** new js 
+  // Function to change text after a certain interval
+function changeText() {
+  const text1 = document.getElementById('text1');
+  setTimeout(function() {
+      text1.textContent = "आंधळगाव, भंडारा मध्ये प्लॉट बुकिंग सुरु आहे !!";
+  }, 14000); // Change after 5 seconds (5000 milliseconds)
+  setTimeout(function() {
+      text1.textContent = "आंधाळगाव, भंडारा में प्लॉट बुकिंग जारी है !!";
+  }, 28000); // Change after 10 seconds (10000 milliseconds)
+}*/
+
+function changeText() {
+  const text1 = document.getElementById('text1');
+  let count = 0; // Counter to track the iteration
+
+  // Array of texts to cycle through
+  const texts = [
+      "Plot Booking Ongoing in Andhalgaon, Bhandara !!",
+      "आंधळगाव, भंडारा मध्ये प्लॉट बुकिंग सुरु आहे !!",
+      "आंधाळगाव, भंडारा में प्लॉट बुकिंग जारी है !!"
+  ];
+
+  // Function to change text content
+  function changeContent() {
+      text1.textContent = texts[count];
+      count = (count + 1) % texts.length; // Increment count and reset if it exceeds the array length
+  }
+
+  // Call the changeContent function initially
+  changeContent();
+
+  // Call the changeContent function every 5 seconds (5000 milliseconds)
+  setInterval(changeContent, 14000);
+}
+
+// Call the function to start changing text
+changeText();
+
+
+// Call the function to start changing text
+changeText();
 
   /**
    * Navbar links active state on scroll
